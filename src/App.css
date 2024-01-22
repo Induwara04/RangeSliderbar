@@ -1,0 +1,103 @@
+:root{
+  /*colours*/
+  --firstcolor: #235DB1;
+  --secoundcolor: #A6B3FF;
+  --thirdcolour: #E0E2E9;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #041630;
+}
+
+
+element.style {
+  position: relative;
+}
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  margin: 100px;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 10px;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 10px;
+}
+
+.example-track.example-track-0 {
+  background: rgb(35,93,177);
+  border: 0;
+  border-radius: 5px;
+}
+.example-track.example-track-1 {
+  background: rgb(166,179,255);
+}
+.example-track.example-track-2 {
+  background: rgb(224,226,233);
+  border: 0;
+  border-radius: 5px;
+}
+
+.horizontal-slider .example-thumb-0 {
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  line-height: 38px;
+}
+
+.example-thumb-0 {
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
+  border: 3px solid #235DB1;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.example-thumb-0:hover{
+  color: rgb(35,93,177);
+  box-shadow: 5px 5px 15px rgb(35,93,177);
+}
+
+.example-thumb-0:active{
+  background-color: #235DB1;
+}
+
+.horizontal-slider .example-thumb-1 {
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  line-height: 38px;
+}
+
+.example-thumb-1 {
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
+  border: 3px solid #A6B3FF;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.example-thumb-1:hover{
+  color: rgb(166,179,255);
+  box-shadow: 5px 5px 15px rgb(166,179,255);
+}
+
+.example-thumb-1:active{
+  background-color: #A6B3FF;
+}
