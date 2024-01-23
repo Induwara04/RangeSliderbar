@@ -31,6 +31,9 @@ function App() {
               "& .MuiSlider-valueLabel": {
                 color: "#A6B3FF",
               },
+              "& .MuiSlider-rail": {
+                backgroundColor: "#E0E2E9",
+              },
             }}
           />
 
@@ -42,13 +45,13 @@ function App() {
             sx={{
               position: "absolute",
               "& .MuiSlider-track": {
-                color: "#235DB1",
+                color: "#5567D5",
               },
               "& .MuiSlider-rail": {
                 backgroundColor: "transparent",
               },
               "& .MuiSlider-thumb": {
-                color: "#235DB1",
+                color: "#5567D5",
               },
             }}
           />
