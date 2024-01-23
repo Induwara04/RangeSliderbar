@@ -9,7 +9,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #041630;
+  background-color: #819cbe;
+}
+
+.container{
+  position: relative;
+  padding: 200px;
 }
 
 
@@ -52,7 +57,7 @@ element.style {
   top: 1px;
   width: 16px;
   height: 16px;
-  line-height: 38px;
+  line-height: -38px;
 }
 
 .example-thumb-0 {
@@ -126,3 +131,4 @@ element.style {
   font-size: 15px;
   font-weight: 500;
 }
+
