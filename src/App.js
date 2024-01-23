@@ -1,8 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
-import ReactSlider from 'react-slider';
+// import './App.css';
+/*import ReactSlider from 'react-slider';*/
+import Slider from "@mui/material-next/Slider";
 
 function App() {
+  return (
+    <div className="App">
+      <h6>Range Slider</h6>
+      <div className="container" style={{ padding: '30px'}}>
+
+        <div
+          className=""
+          style={{
+            position: "absolute",
+            width: "300px",
+          }}
+        >
+          <Slider
+            max={100}
+            min={0}
+            size="medium"
+            valueLabelDisplay="on"
+            sx={{
+              position: "absolute",
+              "& .MuiSlider-track": {
+                color: "#A6B3FF",
+              },
+              "& .MuiSlider-thumb": {
+                color: "#A6B3FF",
+              },
+              "& .MuiSlider-valueLabel": {
+                color: "#A6B3FF",
+              },
+            }}
+          />
+
+          <Slider
+            max={100}
+            min={0}
+            size="medium"
+            valueLabelDisplay="on"
+            sx={{
+              position: "absolute",
+              "& .MuiSlider-track": {
+                color: "#235DB1",
+              },
+              "& .MuiSlider-rail": {
+                backgroundColor: "transparent",
+              },
+              "& .MuiSlider-thumb": {
+                color: "#235DB1",
+              },
+            }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+/*function App() {
   return (
     <div className="App">
       <h4>Range Slider</h4>
@@ -30,4 +88,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
